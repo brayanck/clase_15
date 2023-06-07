@@ -1,0 +1,22 @@
+
+<div id="caja" class="row row-cols-1 row-cols-md-3 g-4">
+
+</div>
+
+<div class="col-md-4 my-auto container">
+    <form id="form_agregar" action="" class="card card-body rounded-0">
+        <input type="text" id="name" name="name" placeholder="name" class="form-control rounded-0 mb-3" autofocus>
+        <input type="text" id="price" name="price" placeholder="precio" class="form-control rounded-0 mb-3">
+        <input type="text" id="category" name="category" placeholder="categoria" class="form-control rounded-0 mb-3">
+        <input type="text" id="stock" name="stock" placeholder="stock" class="form-control rounded-0 mb-3">
+        <input type="text" id="image" name="image" placeholder="image" class="form-control rounded-0 mb-3">
+        <textarea id="description" name="description" placeholder="descripcion" rows="2"
+            class="form-control rounded-0 mb-3"></textarea>
+        <input type="submit" class="btn btn-dark" value="Agregar producto">
+    </form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/socket.js"></script>
+<script src="/js/ui.js"></script>
+<script src="/js/index.js"></script>
